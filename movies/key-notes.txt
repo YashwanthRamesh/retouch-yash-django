@@ -1,0 +1,76 @@
+===================================
+Django key notes:
+===================================
+
+VIRTUAL ENV
+-----------------------------------
+Creating virtual env:
+>>python -m venv <virtual-env-name>
+
+Activating virtual env:
+>><virtual-env-name>\Scripts\activate
+
+Deactivating virtual env:
+>>deactivate
+
+===================================
+
+GIT
+-----------------------------------
+To check the version
+>>git --version
+
+To initialize empty git repository
+>>git init
+
+To commint current directory into git
+>>git add .
+
+To check status
+>> git status
+
+To commit the changes with message
+>>git commit -m "<commit-message>"
+
+To track and check the git
+>>git log
+
+create an empty git repository in github desktop without any files and copy the provided cli
+and paste it in the project cli, this will transfer the git into github repository
+
+===================================
+
+
+===================================
+DJANGO 
+===================================
+
+To install django:
+>>pip install django
+
+To check django version
+>>django-admin --version
+
+To check python version
+>>python --version
+
+To check pip version
+>>pip --version
+
+To create an app
+>>django-admin startproject <app-name>
+
+To start the server
+>>py manage.py runserver
+
+
+MVT - Model View Template
+------------------------------------
+
+
+
+
+
+
+
+
