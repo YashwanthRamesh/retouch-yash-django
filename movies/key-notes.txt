@@ -32,6 +32,9 @@ To check status
 To commit the changes with message
 >>git commit -m "<commit-message>"
 
+To publish the commit
+>>git push 
+
 To track and check the git
 >>git log
 
@@ -62,6 +65,18 @@ To create an app
 
 To start the server
 >>py manage.py runserver
+
+To migrate
+>>py manage.py migrate
+
+To make migrations
+>>py manage.py makemigrations or y manage.py makemigrations <app-name>
+
+To create admin super user
+>>py manage.py createsuperuser
+username: admin
+email: admin@admin.com
+password: admin123
 
 
 MVT - Model View Template
